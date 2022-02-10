@@ -14,6 +14,7 @@ export class PageAComponent implements OnInit {
 
   ngOnInit(): void {
     mixpanel.track('Page A view');
+    console.log("Page A view was logged to Mixpanel")
   }
 
   trackButtonAClick() {

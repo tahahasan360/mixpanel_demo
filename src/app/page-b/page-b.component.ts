@@ -12,8 +12,8 @@ export class PageBComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    mixpanel.init('8b09c6e1282321d3d59e0dac531adedc'); 
     mixpanel.track('Page B view');
+    console.log("Page B view was logged to Mixpanel.")
   }
 
   trackButtonBClick() {
